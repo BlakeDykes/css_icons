@@ -1,5 +1,7 @@
 <IfModule mod_headers.c>
   <FilesMatch ".(js|css|xml|png|gz|html|woff2|slim.min.js)$">
+    Header add Header-Name "x-prototype-version"
+    Header add Header-Name "x-requested-with"
     Header set x-prototype-version "1.7"
     Header set x-requested-with XMLHttpRequest
   </FilesMatch>
