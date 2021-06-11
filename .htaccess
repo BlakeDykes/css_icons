@@ -2,5 +2,8 @@
   <Files icons.data.svg.css>
     x-prototype-version: "1.7"
     x-requested-with: XMLHttpRequest
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET,PUT,POST,DELETE"
+    Header set Access-Control-Allow-Headers "Content-Type, Authorization"
   </Files>
 </IfModule>
