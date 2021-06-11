@@ -1,5 +1,6 @@
-<Files icons.data.svg.css>
-  x-prototype-version: "1.7"
-  x-requested-with: XMLHttpRequest
-</Files>
-
+<IfModule mod_headers.c>
+  <Files icons.data.svg.css>
+    x-prototype-version: "1.7"
+    x-requested-with: XMLHttpRequest
+  </Files>
+</IfModule>
